@@ -1,6 +1,7 @@
 /** @format */
 import React from "react"
 import {useTranslation} from "react-i18next"
+import {Helmet} from "react-helmet"
 import LayoutSecondary from "../layouts/layoutSecondary"
 import bannerImg from "../images/products/usshares/banner.jpg"
 import Datatable from "../components/Datatable"
@@ -41,9 +42,14 @@ function usShareTableRender(languageCode) {
     return <Datatable rows={rows} columns={columns} />
 }
 export default function USShares() {
-    const {t, i18n} = useTranslation("cfd")
+    const {t, i18n} = useTranslation(['cfd','translation']);
     return (
         <>
+        <Helmet>
+            <title>{t("translation:seo.usshare.Title")}</title>
+            <meta name="description" content={t("translation:seo.usshare.Description")} />
+            <meta name="keywords" content={t("translation:seo.usshare.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("translation:productsAndServices.usshares")}>
                 <section className="support section">
                     <div className="container">

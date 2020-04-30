@@ -53,4 +53,14 @@ export default {
             "石油和能源交易品种的交易时间： \n西德克萨斯中质石油和天然气: 交易开始于周一GMT+3时间01:05并持续到周五GMT+3时间 23:55。  \n布伦特原油：交易始于周一GMT+3时间03:05并持续到周五GMT+3时间23:55。",
         wti: "原油现货差价合约",
     },
+    cryptcfd: {
+        title: "加密货币",
+        aboutCommodityTitle: "",
+        aboutCommodityMessage:
+            "",
+        oilTradingHoursTitle: "",
+        oilTradingHoursMessage:
+            "",
+        wti: "",
+    },
 }

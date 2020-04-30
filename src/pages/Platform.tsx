@@ -419,6 +419,11 @@ export default function Platform({highlightString}: Props) {
     const currentLang = i18n.language
     return (
         <>
+        <Helmet>
+            <title>{t("seo.paltform.Title")}</title>
+            <meta name="description" content={t("seo.paltform.Description")} />
+            <meta name="keywords" content={t("seo.paltform.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("platform.platformTitle")}>
                 <section className="section">
                     <div className="container">

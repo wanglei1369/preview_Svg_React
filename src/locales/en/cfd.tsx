@@ -55,4 +55,14 @@ export default {
             "Commodities (Energy and Oil) Trading hours for Oil and Energy instruments: \nXTI (WTI) & XNG (Natural Gas): Trading starts at 01:05 GMT+3 on Monday and is active until 23:55 GMT+3 on Friday. \nXBR (Brent Crude Oil):  Trading starts at 03:05 GMT+3 on Monday and is active until 23:55 GMT+3 on Friday.",
         wti: "WTI- SPOT",
     },
+    cryptcfd: {
+        title: "Cryptoccy CFDs",
+        aboutCommodityTitle: "",
+        aboutCommodityMessage:
+            "",
+        oilTradingHoursTitle: "",
+        oilTradingHoursMessage:
+            "",
+        wti: "",
+    },
 }

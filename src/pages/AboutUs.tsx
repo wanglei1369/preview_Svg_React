@@ -2,13 +2,20 @@
 
 import React from "react"
 import {useTranslation} from "react-i18next"
+import {Helmet} from "react-helmet"
 import LayoutSecondary from "../layouts/layoutSecondary"
 import bannerImg from "../images/aboutus/banner.jpg"
 
 export default function AboutUs() {
-    const {t} = useTranslation("")
+    
+    const {t, i18n} = useTranslation("")
     return (
         <>
+        <Helmet>
+            <title>{t("seo.aboutus.Title")}</title>
+            <meta name="description" content={t("seo.aboutus.Description")} />
+            <meta name="keywords" content={t("seo.aboutus.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("aboutUs.brandHistory")}>
                 <section className="mission section">
                     <div className="container">

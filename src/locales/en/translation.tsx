@@ -121,6 +121,7 @@ export default {
             "Cross-border trading companies and financial institutions are often exposed to the risk of net cash value changes due to the uncertainty of foreign exchange rates. CJC Markets provides enterprises and institutions with reasonable solutions to hedge exchange rates. Help enterprises control the risk of exchange rate fluctuations, save costs and keep profits.",
         contactUs: "Contact us to learn more",
         usshares: "US Shares",
+        cryptoccycfd : "Cryptoccy CFDs",
     },
     contactForm: {
         contactTitle: "Contact",

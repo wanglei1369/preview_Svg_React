@@ -2,6 +2,7 @@
 
 import React from "react"
 import {useTranslation} from "react-i18next"
+import {Helmet} from "react-helmet"
 import LayoutSecondary from "../layouts/layoutSecondary"
 import bannerImg from "../images/products/indices/banner.jpg"
 import Datatable from "../components/Datatable"
@@ -40,9 +41,14 @@ function indicesTableRender(languageCode) {
     return <Datatable rows={rows} columns={columns} />
 }
 export default function Indices() {
-    const {t, i18n} = useTranslation("cfd")
+    const {t, i18n} = useTranslation(['cfd','translation']);
     return (
         <>
+        <Helmet>
+            <title>{t("translation:seo.indices.Title")}</title>
+            <meta name="description" content={t("translation:seo.indices.Description")} />
+            <meta name="keywords" content={t("translation:seo.indices.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("index.title")}>
                 <section className="support section">
                     <div className="container">

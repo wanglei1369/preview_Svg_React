@@ -13,7 +13,6 @@ import ibIcon from "../images/services/ib-icon.png"
 import hedgeIcon from "../images/services/hedge-icon.png"
 
 export default function Cooperate() {
-    const {t} = useTranslation("")
     const contactFormStyle = {
         backgroundImage: `url(${mamImage})`,
         backgroundPosition: "center",
@@ -23,8 +22,14 @@ export default function Cooperate() {
     const iconStyle = {
         width: "6%",
     }
+    const {t, i18n} = useTranslation("");
     return (
         <>
+        <Helmet>
+            <title>{t("seo.cooperate.Title")}</title>
+            <meta name="description" content={t("seo.cooperate.Description")} />
+            <meta name="keywords" content={t("seo.cooperate.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("header.partner")}>
                 <section className="section">
                     <div className="container">

@@ -11,6 +11,7 @@ import WhyCjc from "./pages/whyCJC"
 import Forex from "./pages/Forex"
 import Metal from "./pages/Metal"
 import Oil from "./pages/Oil"
+import CryptoccyCFDs from "./pages/CryptoccyCFDs" 
 import Indices from "./pages/Indices"
 import USShares from "./pages/USShares"
 import PlatformPage from "./pages/Platform"
@@ -96,6 +97,7 @@ ReactDOM.render(
                 <Route path="/products-and-services/metal" exact component={Metal} />
                 <Route path="/products-and-services/indices" exact component={Indices} />
                 <Route path="/products-and-services/usshares" exact component={USShares} />
+                <Route path="/products-and-services/cryptoforex" exact component={CryptoccyCFDs} />
                 <Route exact path="/help/qna" render={props => <HelpPage {...props} highlightString={0} />} />
                 <Route exact path="/help/documents" render={props => <HelpPage {...props} highlightString={1} />} />
                 <Route path="/cooperate" exact component={Cooperate} />

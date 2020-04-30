@@ -14,18 +14,18 @@ import advantage5Image from "../images/whyCJC/advantage5.png"
 import advantage6Image from "../images/whyCJC/advantage6.png"
 
 export default function WhyCJC() {
-    const {t} = useTranslation("")
-    const pageTitle = t("whyCJC.whyCjcTitle") + " | Carrick Just Capital"
-    const pageDesc = t("whyCJC.whyCjcMessage")
     const iconStyle = {
         width: "12%",
     }
+    const {t} = useTranslation("")
+    //const {s, i18n} = useTranslation("seo","")
     return (
         <>
-            <Helmet>
-                <title>{pageTitle}</title>
-                <meta name="description" content={pageDesc} />
-            </Helmet>
+        <Helmet>
+            <title>{t("seo.whycjc.Title")}</title>
+            <meta name="description" content={t("seo.whycjc.Description")} />
+            <meta name="keywords" content={t("seo.whycjc.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("whyCJC.whyCjcTitle")}>
                 <section className="product section">
                     <div className="container">

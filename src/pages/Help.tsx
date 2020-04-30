@@ -13,11 +13,18 @@ import "../styles/help.css"
 interface Props {
     highlightString: number
 }
+const {t, i18n} = useTranslation("")
 
 function helpContent(id: number, t: any, language: string) {
     if (id === 0) {
+
         return (
             <>
+            <Helmet>
+                <title>{t("seo.paltform.Title")}</title>
+                <meta name="description" content={t("seo.paltform.Description")} />
+                <meta name="keywords" content={t("seo.paltform.Keywords")} />
+            </Helmet>
                 <div className="support wrapper">
                     <div className="wrap-1">
                         <input type="radio" id="tab-1" name="tabs" />

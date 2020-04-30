@@ -195,6 +195,9 @@ function HeaderComponent() {
                                             <Link to="/products-and-services/usshares" className="dropdown-item">
                                                 {t("productsAndServices.usshares")}
                                             </Link>
+                                            <Link to="/products-and-services/cryptoforex" className="dropdown-item">
+                                                {t("productsAndServices.cryptoccycfd")}
+                                            </Link>
                                         </div>
                                     </li>
                                     <li className="nav-item dropdown">

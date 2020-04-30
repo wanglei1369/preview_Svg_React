@@ -1,6 +1,7 @@
 /** @format */
 import React from "react"
 import {useTranslation} from "react-i18next"
+import {Helmet} from "react-helmet"
 import LayoutSecondary from "../layouts/layoutSecondary"
 import bannerImg from "../images/products/oil/banner.jpg"
 import Datatable from "../components/Datatable"
@@ -135,9 +136,14 @@ function ukOilExpireTableRender(languageCode) {
     return <Datatable rows={rows} columns={columns} />
 }
 export default function Metal() {
-    const {t, i18n} = useTranslation("cfd")
+    const {t, i18n} = useTranslation(['cfd','translation']);
     return (
         <>
+        <Helmet>
+            <title>{t("translation:seo.oil.Title")}</title>
+            <meta name="description" content={t("translation:seo.oil.Description")} />
+            <meta name="keywords" content={t("translation:seo.oil.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("oil.title")}>
                 <section className="support section">
                     <div className="container">

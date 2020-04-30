@@ -2,6 +2,7 @@
 
 import React from "react"
 import {useTranslation} from "react-i18next"
+import {Helmet} from "react-helmet"
 import LayoutSecondary from "../layouts/layoutSecondary"
 import bannerImg from "../images/products/metal/banner.jpg"
 import Datatable from "../components/Datatable"
@@ -42,9 +43,14 @@ function metalTableRender(languageCode) {
     return <Datatable rows={rows} columns={columns} />
 }
 export default function Metal() {
-    const {t, i18n} = useTranslation("cfd")
+    const {t, i18n} = useTranslation(['cfd','translation']);
     return (
         <>
+        <Helmet>
+            <title>{t("translation:seo.metal.Title")}</title>
+            <meta name="description" content={t("translation:seo.metal.Description")} />
+            <meta name="keywords" content={t("translation:seo.metal.Keywords")} />
+        </Helmet>
             <LayoutSecondary bannerImg={bannerImg} pageTitle={t("metal.title")}>
                 <section className="support section">
                     <div className="container">

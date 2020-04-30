@@ -3,7 +3,6 @@
 import React, {ReactNode} from "react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
-import SEO from "../components/SEO"
 
 interface Props {
     children: ReactNode
@@ -21,7 +20,6 @@ const LayoutSecondary = ({children, bannerImg, pageTitle}: Props) => {
     }
     return (
         <>
-            <SEO />
             <Header></Header>
             <section className="section" style={bannerStyle}>
                 <div className="container">
