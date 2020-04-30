@@ -13,7 +13,6 @@ import "../styles/help.css"
 interface Props {
     highlightString: number
 }
-const {t, i18n} = useTranslation("")
 
 function helpContent(id: number, t: any, language: string) {
     if (id === 0) {
