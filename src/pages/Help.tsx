@@ -20,9 +20,9 @@ function helpContent(id: number, t: any, language: string) {
         return (
             <>
             <Helmet>
-                <title>{t("seo.paltform.Title")}</title>
-                <meta name="description" content={t("seo.paltform.Description")} />
-                <meta name="keywords" content={t("seo.paltform.Keywords")} />
+                <title>{t("seo.help.Title")}</title>
+                <meta name="description" content={t("seo.help.Description")} />
+                <meta name="keywords" content={t("seo.help.Keywords")} />
             </Helmet>
                 <div className="support wrapper">
                     <div className="wrap-1">

@@ -336,4 +336,102 @@ export default {
         notFoundMessage: "해당 페이지의 이름이 변경되었거나 일시적으로 사용이 불가 합니다",
         notFoundHomepage: "홈페이지로 돌아가기",
     },
+    seo:{ 
+        homepage: { 
+            Title: "CJC Markets，regulated and licensed one-stop CFDs trading platform", 
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Keywords:"CJC Markets；Is CJC Markets regulated?；Is CJC Markets licensed？", 
+        }, 
+        aboutus: { 
+            Title: "ABOUT US | CJC Markets", 
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Keywords:"CJC Markets；", 
+        }, 
+        whycjc: { 
+            Title: "WHY CJC | CJC Markets",
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Keywords:"CJC Markets；", 
+        },
+        forex: { 
+            Title: "FOREX TRADING | CJC Markets", 
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+        },
+        oil: { 
+            Title: "COMMODITY TRADING | CJC Market", 
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+        },
+        metal: { 
+
+            Title: "METALS TRADING | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        indices: { 
+
+            Title: " EQUITY INDICES TRADING | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        usshare: { 
+
+            Title: "US SHARES | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        cryptcfd: { 
+
+            Title: " CRYPTOCURRENCY CFDs | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        cooperate: { 
+
+            Title: "WORK WITH US | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        paltform: { 
+
+            Title: "PLATFORM | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        help: { 
+
+            Title: "HELP | CJC Markets", 
+
+            Description: "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+    }
 }

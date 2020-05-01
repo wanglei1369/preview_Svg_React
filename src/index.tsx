@@ -19,6 +19,8 @@ import HelpPage from "./pages/Help"
 import NotFound from "./pages/404"
 import WebFont from "webfontloader"
 import ScrollToTop from "./components/ScrollToTop"
+import News from "./pages/News"
+import NewsSingle from "./pages/NewsSingle"
 import "react-app-polyfill/ie9"
 import "react-app-polyfill/stable"
 import * as serviceWorker from "./serviceWorker"
@@ -46,6 +48,23 @@ const Cooperate = () => {
         </Suspense>
     )
 }
+// const NewsComponent = lazy(() => import("./pages/News"))
+// const News = () => {
+//     return (
+//         <Suspense fallback={Preloader}>
+//             <NewsComponent />
+//         </Suspense>
+//     )
+// }
+// const NewsSingleComponent = lazy(() => import("./pages/NewsSingle"))
+// type TParams = {props: string}
+// const NewsSingle = (props: RouteComponentProps<TParams>) => {
+//     return (
+//         <Suspense fallback={Preloader}>
+//             <NewsSingleComponent {...props} />
+//         </Suspense>
+//     )
+// }
 
 const SignupComponent = lazy(() => import("./pages/Signup"))
 const Signup = () => {
@@ -182,6 +201,8 @@ ReactDOM.render(
                         return null
                     }}
                 />
+                <Route path="/News" exact component={News} />
+                <Route path="/news/:props" exact component={NewsSingle} />
                 <Route path="/promotion-cn" exact component={PromotionCn} />
                 <Route path="/about-us" exact component={AboutUsPage} />
                 <Route path="/404" component={NotFound} />

@@ -282,4 +282,126 @@ export default {
             "Halaman yang anda cari mungkin telah dialihkan jika namanya berubah atau tidak tersedia buat sementara waktu.",
         notFoundHomepage: "Kembali ke Laman Web",
     },
+    seo:{ 
+
+        homepage: { 
+
+            Title: "CJC Markets | Platform perdagangan kewangan formal dan sah sehenti", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah", 
+
+            Keywords:"CJC Markets；adakah CJC Markets sah; adakah CJC Markets biasa?", 
+
+        }, 
+
+        aboutus: { 
+
+            Title: "Tentang kami | CJC Markets", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        whycjc: { 
+
+            Title: "pilih CJC | CJC Markets", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.",    
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        forex: { 
+
+            Title: "Produk Forex | CJC Markets", 
+
+            Description: "CJC Markets  berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        oil: { 
+
+            Title: "Produk minyak mentah | CJC Market", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.",  
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        metal: { 
+
+            Title: "Produk Logam | CJC Markets", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        indices: { 
+
+            Title: "Produk Indeks Global | CJC Markets", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        usshare: { 
+
+            Title: "Produk Saham US | CJC Markets", 
+
+            Description: "CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        cryptcfd: { 
+
+            Title: "Cryptocurrency | CJC Markets", 
+
+            Description: " CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        cooperate: { 
+
+            Title: "Kerjasama | CJC Markets", 
+
+            Description: " CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah." ,
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        paltform: { 
+
+            Title: "Muat turun Platform| CJC Markets", 
+
+            Description: " CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+
+        help: { 
+
+            Title: "Pembantu Perdagangan | CJC Markets", 
+
+            Description: " CJC Markets berdasarkan pasar global, mengintegrasikan teknologi ke dalam kewangan, ia juga memegang peraturan kewangan New Zealand dan secara berkala menerima audit kewangan dan pematuhan yang dilakukan oleh institusi bebas pihak ketiga. Ia adalah platform perdagangan kewangan formal dan sah.", 
+
+            Keywords:"CJC Markets；", 
+
+        }, 
+    }
 }

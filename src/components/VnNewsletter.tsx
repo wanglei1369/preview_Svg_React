@@ -38,7 +38,7 @@ export default function Terminal() {
                                                 )
                                             })} </h6>   
                                         <div className="text-center">
-                                            <Link to="/" className="btn-outline">
+                                            <Link to="/News" className="btn-outline">
                                                 {t("vnNewsLetter.vnnewsbutton")}
                                             </Link>
                                         </div>

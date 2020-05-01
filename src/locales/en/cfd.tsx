@@ -56,7 +56,7 @@ export default {
         wti: "WTI- SPOT",
     },
     cryptcfd: {
-        title: "Cryptoccy CFDs",
+        title: "CRYPTOCURRENCY CFDs",
         aboutCommodityTitle: "",
         aboutCommodityMessage:
             "",
