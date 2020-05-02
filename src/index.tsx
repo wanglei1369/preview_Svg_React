@@ -2,7 +2,7 @@
 
 import React, {lazy, Suspense} from "react"
 import ReactDOM from "react-dom"
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import {BrowserRouter as Router, Route, Switch, RouteComponentProps} from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./styles/styles.css"
 import "./styles/foundation.css"
@@ -19,8 +19,6 @@ import HelpPage from "./pages/Help"
 import NotFound from "./pages/404"
 import WebFont from "webfontloader"
 import ScrollToTop from "./components/ScrollToTop"
-import News from "./pages/News"
-import NewsSingle from "./pages/NewsSingle"
 import "react-app-polyfill/ie9"
 import "react-app-polyfill/stable"
 import * as serviceWorker from "./serviceWorker"
@@ -48,23 +46,23 @@ const Cooperate = () => {
         </Suspense>
     )
 }
-// const NewsComponent = lazy(() => import("./pages/News"))
-// const News = () => {
-//     return (
-//         <Suspense fallback={Preloader}>
-//             <NewsComponent />
-//         </Suspense>
-//     )
-// }
-// const NewsSingleComponent = lazy(() => import("./pages/NewsSingle"))
-// type TParams = {props: string}
-// const NewsSingle = (props: RouteComponentProps<TParams>) => {
-//     return (
-//         <Suspense fallback={Preloader}>
-//             <NewsSingleComponent {...props} />
-//         </Suspense>
-//     )
-// }
+const NewsComponent = lazy(() => import("./pages/News"))
+const News = () => {
+    return (
+        <Suspense fallback={null}>
+            <NewsComponent />
+        </Suspense>
+    )
+}
+const NewsSingleComponent = lazy(() => import("./pages/NewsSingle"))
+type TParams = {props: string}
+const NewsSingle = (props: RouteComponentProps<TParams>) => {
+    return (
+        <Suspense fallback={null}>
+            <NewsSingleComponent {...props} />
+        </Suspense>
+    )
+}
 
 const SignupComponent = lazy(() => import("./pages/Signup"))
 const Signup = () => {
