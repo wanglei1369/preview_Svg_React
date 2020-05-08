@@ -279,6 +279,9 @@ function HeaderComponent() {
                                             <a href="" className="dropdown-item" onClick={() => changeLanguage("zh")}>
                                                 简体中文
                                             </a>
+                                            <a href="" className="dropdown-item" onClick={() => changeLanguage("tw")}>
+                                                繁體中文
+                                            </a>
                                             <a href="" className="dropdown-item" onClick={() => changeLanguage("en")}>
                                                 English
                                             </a>
@@ -320,6 +323,11 @@ function HeaderComponent() {
                                 <div className="col-lg-2">
                                     <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("zh")}>
                                         简体中文
+                                    </h6>
+                                </div>
+                                <div className="col-lg-2">
+                                    <h6 style={{cursor: "pointer"}} onClick={() => changeLanguage("tw")}>
+                                        繁體中文
                                     </h6>
                                 </div>
                                 <div className="col-lg-2">

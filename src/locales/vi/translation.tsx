@@ -133,6 +133,8 @@ export default {
         hedgeMessage:
             " Các công ty và tổ chức tài chính hoạt động đa quốc gia thường đối mặt với rủi ro do sự bất ổn của tỷ giá hối đoái. CJC Markets cung cấp cho các tổ chức này một giải pháp hợp lý để giảm thiểu rủi ro cho giá trị dòng tiền hiện tại. Giúp đỡ các doanh nghiệp kiểm soát rủi ro từ việc tỷ giá hối đoái dao động, giảm thiểu phí phát sinh và giữ nguyên lợi nhuận.",
         contactUs: "Liên hệ chúng tô để biết thêm thông tin",
+        usshares: "Cổ phiếu Mỹ",
+        cryptoccycfd : "Crypto CFDs",
     },
     contactForm: {
         contactTitle: "Liên lạc",
@@ -361,37 +363,50 @@ export default {
     },
     seo:{ 
         homepage: { 
-            Title: "CJC Markets，regulated and licensed one-stop CFDs trading platform", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-            Keywords:"CJC Markets；Is CJC Markets regulated?；Is CJC Markets licensed？", 
+            Title: "CJC Markets, sàn giao dịch ngoại hối hợp pháp chính quy ", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
+            Keywords:"CJC Markets；CJC Markets hợp pháp không；CJC Markets chính quy không?", 
         }, 
         aboutus: { 
-            Title: "ABOUT US | CJC Markets", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Title: "Về chúng tôi | CJC Markets", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
             Keywords:"CJC Markets；", 
         }, 
         whycjc: { 
-            Title: "WHY CJC | CJC Markets",
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Title: "Hãy chọn CJC | CJC Markets", 
+
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
+
             Keywords:"CJC Markets；", 
-        },
+
+        }, 
+
         forex: { 
-            Title: "FOREX TRADING | CJC Markets", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Title: "Ngoại hối | CJC Markets", 
+
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
-        },
+
+        }, 
+
         oil: { 
-            Title: "COMMODITY TRADING | CJC Market", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Title: "Dầu thô | CJC Market", 
+
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
-        },
+
+        }, 
+
         metal: { 
 
-            Title: "METALS TRADING | CJC Markets", 
+            Title: "Kim loại quý | CJC Markets", 
 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 
@@ -399,9 +414,9 @@ export default {
 
         indices: { 
 
-            Title: " EQUITY INDICES TRADING | CJC Markets", 
+            Title: "Chỉ số Index | CJC Markets", 
 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 
@@ -409,9 +424,9 @@ export default {
 
         usshare: { 
 
-            Title: "US SHARES | CJC Markets", 
+            Title: "Cổ phiếu Mỹ | CJC Markets", 
 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 
@@ -419,9 +434,9 @@ export default {
 
         cryptcfd: { 
 
-            Title: " CRYPTOCURRENCY CFDs | CJC Markets", 
+            Title: "Crypto | CJC Markets", 
 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 
@@ -429,9 +444,9 @@ export default {
 
         cooperate: { 
 
-            Title: "WORK WITH US | CJC Markets", 
+            Title: "hợp tác | CJC Markets", 
 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 
@@ -439,9 +454,9 @@ export default {
 
         paltform: { 
 
-            Title: "PLATFORM | CJC Markets", 
+            Title: "download | CJC Markets", 
 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 
@@ -449,9 +464,9 @@ export default {
 
         help: { 
 
-            Title: "HELP | CJC Markets", 
+            Title: "hỗ trợ giao dịch | CJC Markets", 
 
-            Description: "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+            Description: "CJC Markets đang mở rộng chiến lược toàn cầu hóa, đưa công nghệ kỹ thuật tiên tiến vào thị trường tài chính. CJC Markets được cấp Giấy phép phát hành phái sinh của New Zealand, nhận được kiểm toán tài chính và thẩm định thường xuyên của các cơ quan bên thứ ba độc lập. CJC Markets là sàn giao dịch ngoại hối hợp pháp chính quy", 
 
             Keywords:"CJC Markets；", 
 

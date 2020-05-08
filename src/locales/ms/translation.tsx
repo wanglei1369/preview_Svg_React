@@ -119,7 +119,7 @@ export default {
         contactForm: "Hubungi",
         contactGreeting: "Jangan teragak-agak untuk memberi kami panggilan atau hanya gunakan borang di bawah",
         contactName: "Nama",
-        contactEmail: "Emell",
+        contactEmail: "E-mel",
         contactSubject: "Subjek",
         contactMessage: "Mesej",
         tradingAccount: "Nombor Akaun MT4",
@@ -199,7 +199,7 @@ export default {
         aboutUs: "Tentang Kami",
         products: "Produk",
         partner: "Bekerja dengan Kami",
-        help: "Tolong",
+        help: "Sokongan",
         legalDocument: "Dokumen Undang-undang",
     },
     map: {

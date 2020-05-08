@@ -6,18 +6,21 @@ import LanguageDetector from "i18next-browser-languagedetector"
 import {initReactI18next} from "react-i18next"
 import translationEn from "../locales/en/translation"
 import translationZh from "../locales/zh/translation"
+import translationTw from "../locales/tw/translation"
 import translationVi from "../locales/vi/translation"
 import translationKo from "../locales/ko/translation"
 import translationTh from "../locales/th/translation"
 import translationMs from "../locales/ms/translation"
 import notFoundEn from "../locales/en/NotFound"
 import notFoundZh from "../locales/zh/NotFound"
+import notFoundTw from "../locales/tw/NotFound"
 import notFoundVi from "../locales/vi/NotFound"
 import notFoundKo from "../locales/ko/NotFound"
 import notFoundTh from "../locales/th/NotFound"
 import notFoundMs from "../locales/ms/NotFound"
 import cfdEn from "../locales/en/cfd"
 import cfdZh from "../locales/zh/cfd"
+import cfdTw from "../locales/tw/cfd"
 
 const resources = {
     en: {
@@ -29,6 +32,11 @@ const resources = {
         translation: translationZh,
         NotFound: notFoundZh,
         cfd: cfdZh,
+    },
+    tw: {
+        translation: translationTw,
+        NotFound: notFoundTw,
+        cfd: cfdTw,
     },
     vi: {
         translation: translationVi,

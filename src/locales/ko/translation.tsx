@@ -336,102 +336,67 @@ export default {
         notFoundMessage: "해당 페이지의 이름이 변경되었거나 일시적으로 사용이 불가 합니다",
         notFoundHomepage: "홈페이지로 돌아가기",
     },
-    seo:{ 
-        homepage: { 
-            Title: "CJC Markets，regulated and licensed one-stop CFDs trading platform", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-            Keywords:"CJC Markets；Is CJC Markets regulated?；Is CJC Markets licensed？", 
-        }, 
-        aboutus: { 
-            Title: "ABOUT US | CJC Markets", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-            Keywords:"CJC Markets；", 
-        }, 
-        whycjc: { 
-            Title: "WHY CJC | CJC Markets",
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-            Keywords:"CJC Markets；", 
-        },
-        forex: { 
-            Title: "FOREX TRADING | CJC Markets", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+    seo:{
+        homepage: {
+            Title: "CJC Markets, 세계를 선도하는 뉴질랜드 전문 금융 파생상품사",
+            Description: "CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords: "CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；CJC Markets 규제 ；CJC Markets 적법성",
+        },
+        aboutus: {
+            Title: "회사소개 | CJC Markets",
+            Description: "CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        whycjc: {
+            Title: "CJC의 강점 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        forex: {
+            Title: "FX트레이딩 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        oil: {
+            Title: "원자재 | CJC Market",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        metal: {
+            Title: "귀금속 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        indices: {
+            Title: " 주식과 지수 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        usshare: {
+            Title: "미국 주식 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        cryptcfd: {
+            Title: " 가상화폐 마진거래 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        cooperate: {
+            Title: "인재채용 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        paltform: {
+            Title: "트레이딩도구 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
+        help: {
+            Title: "도움말 | CJC Markets",
+            Description: " CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
+            Keywords:" CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；",
+        },
 
-            Keywords:"CJC Markets；", 
-        },
-        oil: { 
-            Title: "COMMODITY TRADING | CJC Market", 
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-        },
-        metal: { 
-
-            Title: "METALS TRADING | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
-
-        indices: { 
-
-            Title: " EQUITY INDICES TRADING | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
-
-        usshare: { 
-
-            Title: "US SHARES | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
-
-        cryptcfd: { 
-
-            Title: " CRYPTOCURRENCY CFDs | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
-
-        cooperate: { 
-
-            Title: "WORK WITH US | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
-
-        paltform: { 
-
-            Title: "PLATFORM | CJC Markets", 
-
-            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
-
-        help: { 
-
-            Title: "HELP | CJC Markets", 
-
-            Description: "CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-
-            Keywords:"CJC Markets；", 
-
-        }, 
     }
 }

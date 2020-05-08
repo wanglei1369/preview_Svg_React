@@ -88,7 +88,7 @@ function Page(props: string) {
                                 </div>
                                 <div className="col-lg-4">
                                     {/* Sidebar */}
-                                    <div className="bg-white px-4 py-100 sidebar-box-shadow">
+                                    <div className="bg-white px-4 py-100 sidebar-box">
                                         {/* Widget Newsletter */}
                                         <div className="newsletter">
                                             <h4 className="mb-3">Stay Updated</h4>
