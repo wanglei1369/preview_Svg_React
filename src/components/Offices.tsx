@@ -188,11 +188,11 @@ function locationBlock(location: string) {
                             </div>
                             <div className="office-contact">
                                 <ul className="list-unstyled">
-                                    <li>
+                                    {/* <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-hotelphone"></span>(+84)377-783-556
                                         </p>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-Email"></span>
@@ -221,11 +221,11 @@ function locationBlock(location: string) {
                             </div>
                             <div className="office-contact">
                                 <ul className="list-unstyled">
-                                    <li>
+                                    {/* <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-hotelphone"></span>(+84)898-899-469
                                         </p>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-Email"></span>

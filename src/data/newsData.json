@@ -1,10 +1,132 @@
 [
     {
-        "props": "202003264104415",
-        "author": " Nguồn: Mr.Ival\n #CJC #Forex #Ival #Trader #Broker #Foreignexchange\n",
-        "date": "01 May",
-        "title": "5 LÝ DO KHIẾN BẠN NHẤT ĐỊNH PHẢI QUAN TÂM ĐẾN FOREX ?",
-        "content": "Từ khi tôi bắt đầu day trading (giao dịch trong ngày), thị trường forex (foreign exchange - ngoại hối) đã hấp dẫn tôi. Nó khá giống với thị trường chứng khoán ở quy mô toàn cầu, với các quốc gia được giao dịch thay vì các công ty. \n Giao dịch đầu tiên của tôi là forex và tôi vẫn hoạt động trong thị trường này, bên cạnh thị trường chứng khoán. Có vài lý do rất hấp dẫn để giao dịch tiền tệ, đặc biệt đối với những người mới đến với lĩnh vực trading: \n 1.Đó là thị trường rẻ nhất để bắt đầu. \n Bạn có thể mở 1 tài khoản nhỏ cỡ 25$, nộp tiền bằng thẻ tín dụng hoặc thậm chí là PayPal. Hơn nữa, hầu hết các broker (môi giới) cung cấp các biểu đồ và nền tảng giao dịch miễn phí, vì thế không tốn chi phí ban đầu để thực hiện.\n 2. Nó giao dịch 24 giờ 1 ngày. \n Bạn không phải từ bỏ công việc hàng ngày để làm việc này, bạn có thể giao dịch vào thời điểm phù hợp với mình.\n 3. Có 1 số lượng lớn các cặp tiền tệ để giao dịch.\n Điều đó có nghĩa là nhiều cơ hội hơn để tìm 1 giao dịch tốt, nghĩa là nhiều cơ hội để kiếm lời hơn.\n 4. Phần quan trọng nhất, là nó dịch chuyển chậm hơn nhiều các thị trường khác (có 1 số ngoại lệ, nhưng phần lớn là thế). \n Điều đó nghĩa là bạn có thêm thời gian để tìm hiểu điều gì đang diễn ra và lập kế hoạch các dịch chuyển của bạn. Điều đó tuyệt vời cho những người mới.\n 5. Có các xu hướng rất cụ thể. \n Các xu hướng làm cho các giao dịch dễ dàng hơn. Nó là 1 thị trường Tạ ơn. Ngay cả nếu bạn lỡ mất điểm vào đẹp nhất, thường thì vẫn đáng để nhảy vào 1 giao dịch dù hơi trễ.\n Triết lý của tôi khi giao dịch forex cũng giống như giao dịch chứng khoán - có 1 sự hiểu biết tốt, vững chắc về thị trường, điều gì làm giá dịch chuyển, và bạn làm chủ cuộc sống. Dù các điều kiện sẵn có là gì đi nữa, 1 sự suy thoái toàn cầu, các thời điểm tốt đẹp trên khắp thế giới, hay bất kỳ điều gì khác, nếu bạn hiểu các nền tảng của thị trường tiền tệ bạn có thể kiếm tiền từ đó.\n Chúc các bạn giao dịch thành công!\n"
+        "id": 8,
+        "date": "2020-04-30T14:07:52",
+        "date_gmt": "2020-04-30T02:07:52",
+        "guid": {"rendered": "https://cjc-cms.azurewebsites.net/?p=8"},
+        "modified": "2020-04-30T14:13:59",
+        "modified_gmt": "2020-04-30T02:13:59",
+        "slug": "hello-cjc",
+        "status": "publish",
+        "type": "post",
+        "link": "https://cjc-cms.azurewebsites.net/index.php/2020/04/30/hello-cjc/",
+        "title": {"rendered": "Hello CJC"},
+        "content": {
+            "rendered": "",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 11,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [1],
+        "tags": [3],
+        "_links": {
+            "self": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts/8"}],
+            "collection": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts"}],
+            "about": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/types/post"}],
+            "author": [
+                {"embeddable": true, "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/users/1"}
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/comments?post=8"
+                }
+            ],
+            "version-history": [
+                {"count": 1, "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts/8/revisions"}
+            ],
+            "predecessor-version": [
+                {"id": 12, "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts/8/revisions/12"}
+            ],
+            "wp:featuredmedia": [
+                {"embeddable": true, "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/media/11"}
+            ],
+            "wp:attachment": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/media?parent=8"}],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/categories?post=8"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/tags?post=8"
+                }
+            ],
+            "curies": [{"name": "wp", "href": "https://api.w.org/{rel}", "templated": true}]
+        }
+    },
+    {
+        "id": 1,
+        "date": "2020-04-30T00:03:22",
+        "date_gmt": "2020-04-30T00:03:22",
+        "guid": {"rendered": "https://cjc-cms.azurewebsites.net/?p=1"},
+        "modified": "2020-04-30T00:03:22",
+        "modified_gmt": "2020-04-30T00:03:22",
+        "slug": "hello-world",
+        "status": "publish",
+        "type": "post",
+        "link": "https://cjc-cms.azurewebsites.net/index.php/2020/04/30/hello-world/",
+        "title": {"rendered": "Hello world!"},
+        "content": {
+            "rendered": "\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+            "protected": false
+        },
+        "author": 1,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [1],
+        "tags": [],
+        "_links": {
+            "self": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts/1"}],
+            "collection": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts"}],
+            "about": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/types/post"}],
+            "author": [
+                {"embeddable": true, "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/users/1"}
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/comments?post=1"
+                }
+            ],
+            "version-history": [
+                {"count": 0, "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/posts/1/revisions"}
+            ],
+            "wp:attachment": [{"href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/media?parent=1"}],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/categories?post=1"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https://cjc-cms.azurewebsites.net/index.php/wp-json/wp/v2/tags?post=1"
+                }
+            ],
+            "curies": [{"name": "wp", "href": "https://api.w.org/{rel}", "templated": true}]
+        }
     }
-    
 ]

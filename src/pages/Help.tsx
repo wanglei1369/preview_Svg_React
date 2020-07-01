@@ -358,7 +358,7 @@ function helpContent(id: number, t: any, language: string) {
                                             className="img-fluid w-25"
                                             alt="CJC Product Disclosure Statement"
                                         />
-                                        <h5 className="pl-3">Product Disclosure Statement</h5>
+                                        <h5 className="pl-3 text-left">Product Disclosure Statement</h5>
                                     </div>
                                 </a>
                             </li>
@@ -375,7 +375,7 @@ function helpContent(id: number, t: any, language: string) {
                                                 className="img-fluid w-25"
                                                 alt="CJC Contract Specifications"
                                             />
-                                            <h5 className="pl-3"> Contract Specifications</h5>
+                                            <h5 className="pl-3 text-left"> Contract Specifications</h5>
                                         </div>
                                     </a>
                                 ) : (
@@ -386,7 +386,7 @@ function helpContent(id: number, t: any, language: string) {
                                                 className="img-fluid w-25"
                                                 alt="CJC Contract Specifications"
                                             />
-                                            <h5 className="pl-3"> Contract Specifications</h5>
+                                            <h5 className="pl-3 text-left"> Contract Specifications</h5>
                                         </div>
                                     </a>
                                 )}
@@ -401,7 +401,7 @@ function helpContent(id: number, t: any, language: string) {
                                             className="img-fluid w-25"
                                             alt="CJC Client Services Agreement"
                                         />
-                                        <h5 className="pl-3">Client Services Agreement</h5>
+                                        <h5 className="pl-3 text-left">Client Services Agreement</h5>
                                     </div>
                                 </a>
                             </li>
@@ -411,7 +411,7 @@ function helpContent(id: number, t: any, language: string) {
                                 <a style={{color: "#000000"}} href="/media/documents/Fees-Schedule.pdf">
                                     <div className="pdf-download">
                                         <img src={pdfSVG} className="img-fluid w-25" alt="CJC Fees Schedule" />
-                                        <h5 className="pl-3">Fees Schedule</h5>
+                                        <h5 className="pl-3 text-left">Fees Schedule</h5>
                                     </div>
                                 </a>
                             </li>
@@ -421,7 +421,7 @@ function helpContent(id: number, t: any, language: string) {
                                 <a style={{color: "#000000"}} href="/media/documents/Privacy-Policy.pdf">
                                     <div className="pdf-download">
                                         <img src={pdfSVG} className="img-fluid w-25" alt="CJC Privacy Policy" />
-                                        <h5 className="pl-3">Privacy Policy</h5>
+                                        <h5 className="pl-3 text-left">Privacy Policy</h5>
                                     </div>
                                 </a>
                             </li>
@@ -431,7 +431,7 @@ function helpContent(id: number, t: any, language: string) {
                                 <a style={{color: "#000000"}} href="/media/documents/KYC-AML-POLICY.pdf">
                                     <div className="pdf-download">
                                         <img src={pdfSVG} className="img-fluid w-25" alt="CJC KYC and AML Policy" />
-                                        <h5 className="pl-3">KYC and AML Policy</h5>
+                                        <h5 className="pl-3 text-left">KYC and AML Policy</h5>
                                     </div>
                                 </a>
                             </li>
@@ -445,7 +445,7 @@ function helpContent(id: number, t: any, language: string) {
                                             className="img-fluid w-25"
                                             alt="CJC Account Register Guide (KYC)"
                                         />
-                                        <h5 className="pl-3">Account Register Guide (KYC)</h5>
+                                        <h5 className="pl-3 text-left">Account Register Guide (KYC)</h5>
                                     </div>
                                 </a>
                             </li>
@@ -475,22 +475,46 @@ function sideBar(id: number, t: any) {
 
 export default function Help({highlightString}: Props) {
     const {t, i18n} = useTranslation("")
-    return (
-        <>
-            <LayoutSecondary bannerImg={bannerImg} pageTitle={t("help.helpTitle")}>
-                <section className="section">
-                    <div className="container">
-                        <div className="row">
-                            <aside className="col-lg-4">
-                                <ul className="service-menu pl-0 border mb-50">{sideBar(highlightString, t)}</ul>
-                            </aside>
-                            <div className="col-lg-8">
-                                <p>{helpContent(highlightString, t, i18n.language)}</p>
+    const lanHelp = (languageCode: string) => {
+        if (languageCode.includes("ar")) {
+            return (
+                <>
+                    <LayoutSecondary bannerImg={bannerImg} pageTitle={t("help.helpTitle")}>
+                        <section className="section">
+                            <div className="container">
+                                <div className="row">
+                                    <aside className="col-lg-4 text-right">
+                                        <ul className="service-menu pl-0 border mb-50">{sideBar(highlightString, t)}</ul>
+                                    </aside>
+                                    <div className="col-lg-8 text-right">
+                                        <p className="text-right">{helpContent(highlightString, t, i18n.language)}</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </section>
-            </LayoutSecondary>
-        </>
-    )
+                        </section>
+                    </LayoutSecondary>
+                </>
+            )
+        }else{
+            return (
+                <>
+                    <LayoutSecondary bannerImg={bannerImg} pageTitle={t("help.helpTitle")}>
+                        <section className="section">
+                            <div className="container">
+                                <div className="row">
+                                    <aside className="col-lg-4">
+                                        <ul className="service-menu pl-0 border mb-50">{sideBar(highlightString, t)}</ul>
+                                    </aside>
+                                    <div className="col-lg-8">
+                                        <p>{helpContent(highlightString, t, i18n.language)}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </LayoutSecondary>
+                </>
+            )
+        }
+    }
+    return <>{lanHelp(i18n.language)}</>
 }

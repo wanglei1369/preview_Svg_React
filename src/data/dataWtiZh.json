@@ -1,6 +1,6 @@
 [
     {
-        "leverage": "Up tp 400",
+        "leverage": "Up to 400",
         "symbol": "US Oil",
         "stop": "50%",
         "maximum": "100",
@@ -11,7 +11,7 @@
         "size": "100"
     },
     {
-        "leverage": "Up tp 20",
+        "leverage": "Up to 20",
         "symbol": "UK Oil",
         "stop": "50%",
         "maximum": "100",

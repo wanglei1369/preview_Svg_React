@@ -243,7 +243,8 @@ export default {
         contactUs: "馬上聯繫我們瞭解詳情", 
 
         usshares: "美股", 
-
+        eurshares: "歐股",
+        asiashares: "亞股",
         cryptoccycfd : "加密貨幣", 
 
     }, 

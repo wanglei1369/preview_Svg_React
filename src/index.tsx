@@ -2,7 +2,7 @@
 
 import React, {lazy, Suspense} from "react"
 import ReactDOM from "react-dom"
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import {BrowserRouter as Router, Route, Switch, RouteComponentProps} from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./styles/styles.css"
 import "./styles/foundation.css"
@@ -11,16 +11,16 @@ import WhyCjc from "./pages/whyCJC"
 import Forex from "./pages/Forex"
 import Metal from "./pages/Metal"
 import Oil from "./pages/Oil"
-import CryptoccyCFDs from "./pages/CryptoccyCFDs" 
+import CryptoccyCFDs from "./pages/CryptoccyCFDs"
 import Indices from "./pages/Indices"
 import USShares from "./pages/USShares"
+import AsiaShares from "./pages/AsiaShares"
+import EURShares from "./pages/EURShares"
 import PlatformPage from "./pages/Platform"
 import HelpPage from "./pages/Help"
 import NotFound from "./pages/404"
 import WebFont from "webfontloader"
 import ScrollToTop from "./components/ScrollToTop"
-import News from "./pages/News"
-import NewsSingle from "./pages/NewsSingle"
 import "react-app-polyfill/ie9"
 import "react-app-polyfill/stable"
 import * as serviceWorker from "./serviceWorker"
@@ -48,23 +48,23 @@ const Cooperate = () => {
         </Suspense>
     )
 }
-// const NewsComponent = lazy(() => import("./pages/News"))
-// const News = () => {
-//     return (
-//         <Suspense fallback={Preloader}>
-//             <NewsComponent />
-//         </Suspense>
-//     )
-// }
-// const NewsSingleComponent = lazy(() => import("./pages/NewsSingle"))
-// type TParams = {props: string}
-// const NewsSingle = (props: RouteComponentProps<TParams>) => {
-//     return (
-//         <Suspense fallback={Preloader}>
-//             <NewsSingleComponent {...props} />
-//         </Suspense>
-//     )
-// }
+const NewsComponent = lazy(() => import("./pages/News.jsx"))
+const News = () => {
+    return (
+        <Suspense fallback={null}>
+            <NewsComponent />
+        </Suspense>
+    )
+}
+const NewsSingleComponent = lazy(() => import("./pages/NewsSingle.jsx"))
+type TParams = {props: string}
+const NewsSingle = (props: RouteComponentProps<TParams>) => {
+    return (
+        <Suspense fallback={null}>
+            <NewsSingleComponent {...props} />
+        </Suspense>
+    )
+}
 
 const SignupComponent = lazy(() => import("./pages/Signup"))
 const Signup = () => {
@@ -83,7 +83,14 @@ const PromotionCn = () => {
         </Suspense>
     )
 }
-
+const PromotionIBCnComponent = lazy(() => import("./pages/PromotionIB-CN"))
+const PromotionIBCn = () => {
+    return (
+        <Suspense fallback={null}>
+            <PromotionIBCnComponent />
+        </Suspense>
+    )
+}
 ReactDOM.render(
     <Router>
         <ScrollToTop>
@@ -111,11 +118,18 @@ ReactDOM.render(
                     path="/platform/windows"
                     render={props => <PlatformPage {...props} highlightString={3} />}
                 />
+                <Route
+                    exact
+                    path="/platform/mac"
+                    render={props => <PlatformPage {...props} highlightString={4} />}
+                />
                 <Route path="/products-and-services/forex" exact component={Forex} />
                 <Route path="/products-and-services/oil" exact component={Oil} />
                 <Route path="/products-and-services/metal" exact component={Metal} />
                 <Route path="/products-and-services/indices" exact component={Indices} />
                 <Route path="/products-and-services/usshares" exact component={USShares} />
+                <Route path="/products-and-services/asiashares" exact component={AsiaShares} />
+                <Route path="/products-and-services/eurshares" exact component={EURShares} />
                 <Route path="/products-and-services/cryptoforex" exact component={CryptoccyCFDs} />
                 <Route exact path="/help/qna" render={props => <HelpPage {...props} highlightString={0} />} />
                 <Route exact path="/help/documents" render={props => <HelpPage {...props} highlightString={1} />} />
@@ -195,15 +209,23 @@ ReactDOM.render(
                     }}
                 />
                 <Route
+                    path="/platform-download/goto/mac"
+                    component={() => {
+                        window.location.href = "/media/installer/cjcmarketsformac.zip"
+                        return null
+                    }}
+                />
+                <Route
                     path="/products-and-services/multi-account-manager-solution/copytrading"
                     component={() => {
                         window.location.href = "https://copytrading-cjcmarkets-svg.azurewebsites.net"
                         return null
                     }}
                 />
-                <Route path="/News" exact component={News} />
+                <Route path="/news" exact component={News} />
                 <Route path="/news/:props" exact component={NewsSingle} />
                 <Route path="/promotion-cn" exact component={PromotionCn} />
+                <Route path="/PromotionIB-CN" exact component={PromotionIBCn}/>
                 <Route path="/about-us" exact component={AboutUsPage} />
                 <Route path="/404" component={NotFound} />
                 <Route path="*" component={NotFound} />

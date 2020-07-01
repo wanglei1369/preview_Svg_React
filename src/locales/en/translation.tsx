@@ -121,6 +121,8 @@ export default {
             "Cross-border trading companies and financial institutions are often exposed to the risk of net cash value changes due to the uncertainty of foreign exchange rates. CJC Markets provides enterprises and institutions with reasonable solutions to hedge exchange rates. Help enterprises control the risk of exchange rate fluctuations, save costs and keep profits.",
         contactUs: "Contact us to learn more",
         usshares: "US Shares",
+        eurshares: "EUR Shares",
+        asiashares: "Asia Shares",
         cryptoccycfd : "Cryptoccy CFDs",
     },
     contactForm: {
@@ -253,6 +255,7 @@ export default {
         ipad: "iPad",
         windows: "Windows",
         web: "Web Trading",
+        mac: "Mac"
     },
     login: {
         loginChooser: "Please choose your login panel",
@@ -306,6 +309,9 @@ export default {
         ipadChartingTitle: "Full Trading Capabilities",
         ipadChartingMessage:
             "With easy swipe access to historical data, landscape colour charting, the CJC Markets Tablet App allows Forex analysis on the go.",
+        macTitle: "CJC Markets For Mac",
+        macMessage:
+            "The CJC Markets MT4 Client Terminal Platform provides you with live quotes, real-time charts, in-depth news and analytics, tailored tutoring - as well as a host of order management tools, and indicators.\nOur MT4 platform offers a rich and user-friendly interface in a highly customisable trading environment to help improve your trading experience.\nThe CJC Markets Client Terminal is designed to enhance trading performance by providing a user-friendly and feature-rich trading environment which can be customised to your personal requirements. The MT4 Client Terminal may be the ideal trading platform for advanced traders seeking a competitive edge. Advanced charting technology coupled with sophisticated order-management tools help you to monitor and control your positions quickly and efficiently.",
         windowsTitle: "CJC Markets For Windows",
         windowsMessage:
             "The CJC Markets MT4 Client Terminal Platform provides you with live quotes, real-time charts, in-depth news and analytics, tailored tutoring - as well as a host of order management tools, and indicators.\nOur MT4 platform offers a rich and user-friendly interface in a highly customisable trading environment to help improve your trading experience.\nThe CJC Markets Client Terminal is designed to enhance trading performance by providing a user-friendly and feature-rich trading environment which can be customised to your personal requirements. The MT4 Client Terminal may be the ideal trading platform for advanced traders seeking a competitive edge. Advanced charting technology coupled with sophisticated order-management tools help you to monitor and control your positions quickly and efficiently.",
@@ -334,7 +340,7 @@ export default {
         licenseNumber: "FSPR Number",
         links: "Links",
         productsAndServices: "Products and Services",
-        platform: "Download MT4",
+        platform: "Download MetaTrader4 ",
         contact: "Contact Us",
         aboutUs: "About Us",
         documents: "Documents",
@@ -360,9 +366,9 @@ export default {
     },
     seo:{ 
         homepage: { 
-            Title: "CJC Markets，regulated and licensed one-stop CFDs trading platform", 
+            Title: "CJC Markets, regulated and licensed one-stop CFDs trading platform", 
             Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
-            Keywords:"CJC Markets；Is CJC Markets regulated?；Is CJC Markets licensed？", 
+            Keywords:"CJC Markets; Is CJC Markets regulated?；Is CJC Markets licensed？", 
         }, 
         aboutus: { 
             Title: "ABOUT US | CJC Markets", 
@@ -414,6 +420,24 @@ export default {
 
             Keywords:"CJC Markets；", 
 
+        }, 
+        eurshare: { 
+
+            Title: "EUR SHARES | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+    
+        }, 
+        asiashare: { 
+
+            Title: "ASIA SHARES | CJC Markets", 
+
+            Description: " CJC Markets is a leading global financial institution which offers clients the opportunity to trade the financial markets via contracts for difference (CFDs). CJC Markets attaches great importance to the development of globalization and has been actively planning its globalization strategy. CJC Markets have granted a Derivatives Issuer License issued by the New Zealand Financial Markets Authority, also receive regular financial and compliance audits by independent third-party agencies. CJC Markets provide regulated and licensed one-stop CFDs trading platform.", 
+
+            Keywords:"CJC Markets；", 
+    
         }, 
 
         cryptcfd: { 

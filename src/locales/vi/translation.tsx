@@ -246,7 +246,7 @@ export default {
         mam: "Giải pháp Quản lý Đa Tài khoản",
         chooseLanguage: "Chọn Ngôn ngữ hiển thị",
         server: "MT4 Server",
-        news: "Latest News",
+        news: "Tin tức mới nhất",
         calender: "Economic Calender",
         iphone: "iPhone",
         android: "Android",

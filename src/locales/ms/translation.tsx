@@ -200,6 +200,7 @@ export default {
         products: "Produk",
         partner: "Bekerja dengan Kami",
         help: "Sokongan",
+        news: "Berita Terkini",
         legalDocument: "Dokumen Undang-undang",
     },
     map: {
@@ -242,6 +243,9 @@ export default {
             "Apa sahaja pengalaman perdagangan anda, pemula atau pakar, platform kami dengan mudah boleh disesuaikan untuk memenuhi keperluan perdagangan anda yang tepat.",
         appleStore: "App Store",
         googlePlay: "Android",
+        macTitle: "CJC Markets For Mac",
+        macMessage:
+            "The CJC Markets MT4 Client Terminal Platform provides you with live quotes, real-time charts, in-depth news and analytics, tailored tutoring - as well as a host of order management tools, and indicators.\nOur MT4 platform offers a rich and user-friendly interface in a highly customisable trading environment to help improve your trading experience.\nThe CJC Markets Client Terminal is designed to enhance trading performance by providing a user-friendly and feature-rich trading environment which can be customised to your personal requirements. The MT4 Client Terminal may be the ideal trading platform for advanced traders seeking a competitive edge. Advanced charting technology coupled with sophisticated order-management tools help you to monitor and control your positions quickly and efficiently.",
         windowsStore: "Windows",
         apkDownload: "atau muat turun fail APK di sini",
     },
@@ -252,7 +256,7 @@ export default {
         licenseNumber: "Nombor FSPR",
         links: "Pautan",
         productsAndServices: "Perkhidmatan dan produk",
-        platform: "Muat Turun Platform",
+        platform: "MuatTurun MT4",
         contact: "Hubungi Kami",
         aboutUs: "Tentang Kami",
         documents: "Dokumen",

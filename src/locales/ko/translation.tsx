@@ -288,6 +288,9 @@ export default {
         ipadQuoteTitle: "Live Quotes in Your Hand",
         ipadQuoteMessage:
             "The CJC Markets App for iPad® features fast one-tap execution, trading from multiple screens and custom views of real-time exchange rate data.",
+        macTitle: "CJC Markets For Mac",
+        macMessage:
+            "The CJC Markets MT4 Client Terminal Platform provides you with live quotes, real-time charts, in-depth news and analytics, tailored tutoring - as well as a host of order management tools, and indicators.\nOur MT4 platform offers a rich and user-friendly interface in a highly customisable trading environment to help improve your trading experience.\nThe CJC Markets Client Terminal is designed to enhance trading performance by providing a user-friendly and feature-rich trading environment which can be customised to your personal requirements. The MT4 Client Terminal may be the ideal trading platform for advanced traders seeking a competitive edge. Advanced charting technology coupled with sophisticated order-management tools help you to monitor and control your positions quickly and efficiently.",
         ipadChartingTitle: "Full Trading Capabilities",
         ipadChartingMessage:
             "With easy swipe access to historical data, landscape colour charting, the CJC Markets Tablet App allows Forex analysis on the go.",

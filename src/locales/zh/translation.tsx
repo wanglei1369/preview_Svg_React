@@ -121,6 +121,8 @@ export default {
             "跨国贸易企业及跨境金融机构经常会面临由于外汇汇率的不确定性而导致净现金价值发生变化的风险。CJC Markets为企业及机构客户提供合理的汇率避险解决方案。帮助企业控制汇率波动风险，节省成本，锁定利润。",
         contactUs: "马上联系我们了解详情",
         usshares: "美股",
+        eurshares: "欧股",
+        asiashares: "亚股",
         cryptoccycfd : "加密货币",
     },
     contactForm: {

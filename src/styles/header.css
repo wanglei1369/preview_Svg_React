@@ -83,6 +83,10 @@
     padding: 10px 0;
 }
 
+.navigation .navbar .nav-item-ar {
+    padding: 0 10px;
+}
+
 @media (max-width: 991px) {
     .navigation .navbar .nav-item {
         padding: 0;
