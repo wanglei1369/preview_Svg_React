@@ -491,7 +491,7 @@ const android = (t: any, currentLang: string) => {
                         </div>
                         <div className="col-lg-3 text-center">
                             <QRCode
-                                //value="https://www.cjcmarkets-svg.com/PromotionIB-CN"
+                                //value="https://kr.cjcmarkets-svg.com/PromotionIB-CN"
                                 value="https://cjcmarkets-svg.com/media/installer/metatrader4.apk"
                                 renderAs="svg"
                                 fgColor="#0D0746"
@@ -559,7 +559,7 @@ const android = (t: any, currentLang: string) => {
                         </div>
                         <div className="col-lg-3 text-center">
                             <QRCode
-                                //value="https://www.cjcmarkets-svg.com/PromotionIB-CN"
+                                //value="https://kr.cjcmarkets-svg.com/PromotionIB-CN"
                                 value="https://cjcmarkets-svg.com/media/installer/metatrader4.apk"
                                 renderAs="svg"
                                 fgColor="#0D0746"
