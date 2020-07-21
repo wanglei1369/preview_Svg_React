@@ -69,55 +69,7 @@ export default function Banner() {
                         autoPlay
                         showStatus={false}
                         showThumbs={false}
-                        interval={6000}>
-                        <section className="section blur-bgimage" style={cnBannerImgStyle}>
-                            <div className="container" style={carouselTextStyle}>
-                                <div className="row banner">
-                                    <div className="col-lg-12 text-left">
-                                        <h2 className="text-white" style={{fontWeight: "bold"}}>
-                                        全年赠金
-                                        </h2>
-                                        {/* <h4 className="text-cream mb-20">2020年3月1日-2020年6月1日</h4> */}
-                                        <h4 className="text-white mb-20">
-                                            安全稳健的交易平台
-                                            <br />
-                                            赠金力度高达50%  
-                                        </h4>
-                                    </div>
-                                    <div className="col-lg-12 col-md-12 text-left">
-                                        <Link to="/promotion-cn" className="btn-outlinebn">
-                                            了解活动细则
-                                        </Link>
-                                        <p className="text-white">本活动仅限中国大陆客户参与</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section className="section blur-bgimage" style={cnBannerIbImgStyle}>
-                            <div className="container" style={carouselTextStyle}>
-                                <div className="row banner">
-                                    <div className="col-lg-12 text-left">
-                                        <h2 className="text-white" style={{fontWeight: "bold"}}>
-                                        智享商机
-                                        <br/>
-                                        财富共赢
-                                        </h2>
-                                        {/* <h4 className="text-cream mb-20">2020年3月1日-2020年6月1日</h4> */}
-                                        <h4 className="text-white mb-20">
-                                            代理扶持计划
-                                            {/* <br />
-                                            赠金力度高达50%   */}
-                                        </h4>
-                                    </div>
-                                    <div className="col-lg-12 col-md-12 text-left">
-                                        <Link to="/promotionib-cn" className="btn-outlinebn">
-                                            了解活动细则
-                                        </Link>
-                                        <p className="text-white">本活动限所有CJC Markets 代理参与</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                        interval={6000}>                        
                         <section className="section blur-bgimage" style={bannerOneStyle}>
                             <div className="container" style={carouselTextStyle}>
                                 <div className="row banner">

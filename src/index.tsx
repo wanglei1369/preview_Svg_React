@@ -48,23 +48,6 @@ const Cooperate = () => {
         </Suspense>
     )
 }
-const NewsComponent = lazy(() => import("./pages/News.jsx"))
-const News = () => {
-    return (
-        <Suspense fallback={null}>
-            <NewsComponent />
-        </Suspense>
-    )
-}
-const NewsSingleComponent = lazy(() => import("./pages/NewsSingle.jsx"))
-type TParams = {props: string}
-const NewsSingle = (props: RouteComponentProps<TParams>) => {
-    return (
-        <Suspense fallback={null}>
-            <NewsSingleComponent {...props} />
-        </Suspense>
-    )
-}
 
 const SignupComponent = lazy(() => import("./pages/Signup"))
 const Signup = () => {
@@ -222,8 +205,7 @@ ReactDOM.render(
                         return null
                     }}
                 />
-                <Route path="/news" exact component={News} />
-                <Route path="/news/:props" exact component={NewsSingle} />
+
                 <Route path="/promotion-cn" exact component={PromotionCn} />
                 <Route path="/PromotionIB-CN" exact component={PromotionIBCn}/>
                 <Route path="/about-us" exact component={AboutUsPage} />
