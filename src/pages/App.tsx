@@ -11,8 +11,10 @@ import Slider from "../components/Slider"
 import FMA from "../components/FMA"
 import PriceTable from "../components/PriceTable"
 import VnNewsletter from "../components/VnNewsletter"
+import {GoogleTagManager} from "../components/GoogleTag"
 import {Helmet} from "react-helmet"
 import {useTranslation} from "react-i18next"
+
 
 function IndexPageComponent() {
     const {t} = useTranslation("")
@@ -24,6 +26,7 @@ function IndexPageComponent() {
             <meta name="keywords" content={t("seo.homepage.Keywords")} />
         </Helmet>
             <Layout>
+                <GoogleTagManager/>
                 <Banner />
                 <Service />
                 <VnNewsletter/>
