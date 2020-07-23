@@ -6,6 +6,7 @@ import logoNavDark from "../images/logoNavDark.png"
 import logoNavLight from "../images/logoNavLight.png"
 import "../styles/header.css"
 import {useTranslation} from "react-i18next"
+import {GoogleTagManager} from "../components/GoogleTag"
 
 function HeaderComponent() {
     const {t, i18n} = useTranslation("")
@@ -122,6 +123,7 @@ function HeaderComponent() {
         return (
             <>
                 <header className={`nav-fixed-top ${navBackground ? "nav-dark box-shadow" : "nav-light"}`}>
+                    <GoogleTagManager/>
                     <div className="navigation">
                         <div className="container-lg">
                             <nav className="navbar navbar-expand-lg nav-flex">
