@@ -22,6 +22,7 @@ function IndexPageComponent() {
         <Helmet>
             <title>{t("seo.homepage.Title")}</title>
             <meta name="description" content={t("seo.homepage.Description")} />
+            <meta name="google-site-verification" content="9p9cPChSe9ZyRXQtXixlmZxbFSX7kc_y0Cz5LYlUCto" />
             <meta name="keywords" content={t("seo.homepage.Keywords")} />
         </Helmet>
             <Layout>
