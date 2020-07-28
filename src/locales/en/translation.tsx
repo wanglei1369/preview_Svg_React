@@ -69,6 +69,13 @@ export default {
         heroSubtitle2: " Time",
         heroMessage:
             "Excellent execution, security of funds and easy-to-use platform. CJC Markets delivers a highly reliable platform with many useful features.",
+        heroMessage1:"",
+        heroMessage2:"",
+        heroMessage3:"",
+        heroMessage4:"",
+        heroSubtitleAtBottom:"",
+        heroMessage1AtBottom:"",
+        
         createLiveAccount: "Create Live Account",
         createDemoAccount: "Start Demo Account",
         findOutMore: "Find out more",

@@ -60,10 +60,17 @@ export default {
         heroSubtitle1PreCN: "",
         heroSubtitle1CN: "모든",
         heroSubtitle1PostCN: "",
-        heroSubtitle1: "스마트 거래",
-        heroSubtitle2: "시간",
-        heroMessage:
-            "우수한 실행력, 안전한 자금 보안성 및 사용하기 쉬운 플랫폼. CJC Markets은 유용한 기능을 갖춘 안정적인 플랫폼을 제공합니다",
+        heroSubtitle1: "스마트 FX마진거래",
+        heroSubtitle2: "꿈의 라이프스타일",
+        heroMessage:"우수한 실행력, 안전한 자금 보안성 및 사용하기 쉬운 플랫폼. CJC Markets은 유용한 기능을 갖춘 안정적인 플랫폼을 제공합니다.",
+        heroMessage1:"외환투자, 파생상품, 선물거래, 마진거래로 새로운 삶을 영위합시다.",
+        heroMessage2:"고객 맞춤형 서비스와 입출금의 신속성, 원화 입출금, 안정적인 플랫폼과 풍부한 경험의고객서비스를 제공합니다.",
+        heroMessage3:"뉴질랜드 FMA 라이센스를 보유하고 있는 FX마진거래소FX마진 전문가, IT 전문가, 증권 전문가, CS 전문가들이 함께 모여 있는최적화된 전문가 집단과 함께 시작해 보세요.",
+        heroMessage4:"타사와의 확실한 차별화를 경험해 보세요.",
+
+        heroSubtitleAtBottom:"외환투자의 모든 것 저희 팀에서 지원해 드립니다.",
+        heroMessage1AtBottom:"외환 투자 입문부터 기술분석을 통한 안정된 투자 시장동향 파악 투자의 성공이 이루어 지는 날까지 함께 합니다.",
+
         createLiveAccount: "실계좌 만들기",
         createDemoAccount: "데모계좌 실행하기",
         findOutMore: "더 알아보기",
