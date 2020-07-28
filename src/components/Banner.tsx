@@ -11,6 +11,7 @@ import cnBannerImg from "../images/banner/cn-banner.jpg"
 import cnBannerIBImg from "../images/banner/cn-ibbanner.jpg"
 import msBannerImg from "../images/banner/ms-banner.jpg"
 import msBannerImg2 from "../images/banner/ms-banner2.jpg"
+import teleImg from "../images/banner/tele.jpg"
 import {Link} from "react-router-dom"
 import "../styles/banner.css"
 
@@ -56,6 +57,20 @@ export default function Banner() {
         minHeight: "100vh",
         maxHeight: "100vh",
     }
+
+    const contractBannerImgStyle:CSSProperties = {
+        background:`url(${teleImg})`,
+        backgroundRepeat:"no-repeat",
+        backgroundSize: "cover",
+        height:"25px",
+        width:"25px",
+        color:"white",
+        font:"bold",
+        fontSize:"15px",
+        float:"left",
+        textAlign:"left"
+    }
+
     const carouselTextStyle: CSSProperties = {
         zIndex: 2000,
     }
@@ -122,6 +137,7 @@ export default function Banner() {
                                         </h2>
                                         <h5 className="section-title text-white banner-title text-right">
                                             {t("hero.heroMessage")}
+                                            
                                         </h5>
                                     </div>
                                     <div className="col-lg-12 col-md-12 text-right">
@@ -271,11 +287,23 @@ export default function Banner() {
                                             {t("hero.heroSubtitle1")}
                                             <br />
                                             {t("hero.heroSubtitle1PreCN")}
+                                            <br/>
                                             {t("hero.heroSubtitle1CN")}
                                             {t("hero.heroSubtitle2")}
                                         </h2>
+                                        
                                         <h5 className="section-title text-white banner-title text-left">
+                                            <br/>
                                             {t("hero.heroMessage")}
+                                            <br/>
+                                            <br/>
+                                            {t("hero.heroMessage1")}
+                                            <br/><br/>
+                                            {t("hero.heroMessage2")}
+                                            <br/><br/>
+                                            {t("hero.heroMessage3")}
+                                            <br/><br/>
+                                            {t("hero.heroMessage4")}
                                         </h5>
                                     </div>
                                     <div className="col-lg-6 col-md-12 text-left">
@@ -285,6 +313,21 @@ export default function Banner() {
                                         <Link to="/external-mock-up" className="btn-solid">
                                             {t("hero.createDemoAccount")}
                                         </Link>
+                                    </div>
+                                    <div className="col-lg-12">                      
+                                        <br/>
+                                        <h2 className="text-white text-left" style={{fontWeight: "bold"}}>
+                                            {t("hero.heroSubtitleAtBottom")}
+                                        </h2>
+                                        <h5 className="section-title text-white banner-title text-left">
+                                            <br></br>
+                                            {t("hero.heroMessage1AtBottom")}
+                                        </h5>
+                                        {/* <div>
+                                            <img style={contractBannerImgStyle}/>
+                                            <h2 style={{color:"white",paddingLeft:"15px",fontSize:"18px",lineHeight:"25px",float:"left"}}>111 111 1111</h2>
+                                        </div> */}
+                                        
                                     </div>
                                 </div>
                             </div>
