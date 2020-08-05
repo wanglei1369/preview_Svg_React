@@ -350,7 +350,7 @@ export default {
         homepage: {
             Title: "CJC Markets - fx마진거래, 파생상품, 선물거래, mt4",
             Description: "수한 실행력, 안전한 자금 보안성 및 사용하기 쉬운 플랫폼. CJC Markets은 유용한 기능을 갖춘 안정적인 플랫폼을 제공합니다.외환투자, 파생상품, 선물거래, 마진거래로 새로운 삶을 영위합시다.고객 맞춤형 서비스와 입출금의 신속성, 원화 입출금, 안정적인 플랫폼과 풍부한 경험의고객서비스를 제공합니다.",
-            Keywords: "CJC Markets - fx마진거래, 파생상품, 선물거래, mt4",
+            Keywords: "CJC Markets - fx마진거래, 파생상품, 선물거래, mt4, CJC Markets은 유용한",
         },
         aboutus: {
             Title: "회사소개 | CJC Markets",
