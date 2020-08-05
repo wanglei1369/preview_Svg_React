@@ -348,9 +348,9 @@ export default {
     },
     seo:{
         homepage: {
-            Title: "CJC Markets, 세계를 선도하는 뉴질랜드 전문 금융 파생상품사",
-            Description: "CJC Markets는 세계를 선도하는 전문 금융 파생상품사입니다. 뉴질랜드에 본사를 둔 CJC Markets는 글로벌 고객을 서비스하고 있으며 각 국의 CFD 금융상품 거래 분야에 강점을 두고 있습니다. 뉴질랜드내외 다양한 금융 분야에서 현장경험과 어학 등 국제화 능력을 갖춘 전문인력으로 구성된 CJC Markets는 파생상품 시장의 진정한 글로벌 파트너입니다. 최적의 거래환경과 양질의 투자 정보 제공을 통해 고객 만족에 최선을 다하는 CJC Markets는 고객 여러분의 진정한 투자 파트너입니다. CJC Markets는 뉴질랜드의 금융감독기관에 해당하는 Financial Markets Authority에 인허가를 받고 정기적으로 외부 감사와 준법감시 내용을 보고하고 있습니다. CJC Markets에서의 거래는 FMA의 규제 하에 매매되는 상품입니다.",
-            Keywords: "CJC Markets (CJC마켓, ‘redirect CJC마캣 to CJC마켓’)；CJC Markets 규제 ；CJC Markets 적법성",
+            Title: "CJC Markets - fx마진거래, 파생상품, 선물거래, mt4",
+            Description: "수한 실행력, 안전한 자금 보안성 및 사용하기 쉬운 플랫폼. CJC Markets은 유용한 기능을 갖춘 안정적인 플랫폼을 제공합니다.외환투자, 파생상품, 선물거래, 마진거래로 새로운 삶을 영위합시다.고객 맞춤형 서비스와 입출금의 신속성, 원화 입출금, 안정적인 플랫폼과 풍부한 경험의고객서비스를 제공합니다.",
+            Keywords: "CJC Markets - fx마진거래, 파생상품, 선물거래, mt4, CJC Markets은 유용한",
         },
         aboutus: {
             Title: "회사소개 | CJC Markets",
