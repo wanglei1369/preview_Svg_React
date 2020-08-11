@@ -286,10 +286,10 @@ export default function Banner() {
                                         <h2 className="text-white text-left" style={{fontWeight: "bold"}}>
                                             {t("hero.heroSubtitle1")}
                                             <br />
-                                            {t("hero.heroSubtitle1PreCN")}
+                                            {/* {t("hero.heroSubtitle1PreCN")}
                                             <br/>
-                                            {t("hero.heroSubtitle1CN")}
-                                            {t("hero.heroSubtitle2")}
+                                            {t("hero.heroSubtitle1CN")} */}
+                                            
                                         </h2>
                                         
                                         <h5 className="section-title text-white banner-title text-left">
@@ -303,7 +303,9 @@ export default function Banner() {
                                             <br/><br/>
                                             {t("hero.heroMessage3")}
                                             <br/><br/>
-                                            {t("hero.heroMessage4")}
+                                            {/* {t("hero.heroSubtitle2")}
+                                            <br/><br/>
+                                            {t("hero.heroMessage4")} */}
                                         </h5>
                                     </div>
                                     <div className="col-lg-6 col-md-12 text-left">
