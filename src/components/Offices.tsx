@@ -508,13 +508,13 @@ function locationBlock(location: string) {
                                     <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-Email"></span>
-                                            support-korea@cjcmarkets-svg.com
+                                            kr.support@cjcmarkets.com
                                         </p>
                                     </li>
                                     <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-kakao-talk-fill"></span>
-                                            Kakao: cjc
+                                            Kakao: cjcmarkets
                                         </p>
                                     </li>
                                 </ul>
