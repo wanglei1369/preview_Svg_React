@@ -493,8 +493,16 @@ function locationBlock(location: string) {
                                 <ul className="list-unstyled">
                                     <li>
                                         <p className="current-city__contact-info">
-                                            <span className="iconfont iconfont-custom icon-hotelphone"></span>(+82)
-                                            070-7938-2577
+                                            <span className="iconfont iconfont-custom "></span>
+                                            Admin  Henry K
+
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p className="current-city__contact-info">
+                                            <span className="iconfont iconfont-custom icon-hotelphone"></span>
+                                            (+82) 070 7151 1572
+
                                         </p>
                                     </li>
                                     <li>
@@ -558,7 +566,7 @@ function locationBlock(location: string) {
 
 export default function Office() {
     const {t} = useTranslation("")
-    const [officeLocation, setOfficeLocation] = useState("southpacific")
+    const [officeLocation, setOfficeLocation] = useState("eastasia")
     const [activeStatus, setActiveStatus] = useState([
         "active-mobile",
         "inactive-mobile",
