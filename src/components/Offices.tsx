@@ -501,7 +501,7 @@ function locationBlock(location: string) {
                                     <li>
                                         <p className="current-city__contact-info">
                                             <span className="iconfont iconfont-custom icon-hotelphone"></span>
-                                            (+82) 070 7151 1572
+                                            070 7151 1572
 
                                         </p>
                                     </li>
