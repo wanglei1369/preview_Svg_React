@@ -135,7 +135,7 @@ ReactDOM.render(
                 <Route
                     path="/external-sign-up"
                     component={() => {
-                        window.location.href = "https://trader.cjcmarkets-global.com/register/"
+                        window.location.href = "https://registration.cjcmarkets-global.com/"
                         return null
                     }}
                 />
