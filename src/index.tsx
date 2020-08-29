@@ -121,28 +121,28 @@ ReactDOM.render(
                 <Route
                     path="/login/broker"
                     component={() => {
-                        window.location.href = "https://broker.cjcmarkets-global.com/"
+                        window.location.href = "https://broker.cjcmarketsglobal.com/"
                         return null
                     }}
                 />
                 <Route
                     path="/login/trader"
                     component={() => {
-                        window.location.href = "https://trader.cjcmarkets-global.com/login"
+                        window.location.href = "https://trader.cjcmarketsglobal.com/login"
                         return null
                     }}
                 />
                 <Route
                     path="/external-sign-up"
                     component={() => {
-                        window.location.href = "https://registration.cjcmarkets-global.com/"
+                        window.location.href = "https://registration.cjcmarketsglobal.com/"
                         return null
                     }}
                 />
                 <Route
                     path="/external-mock-up"
                     component={() => {
-                        window.location.href = "https://trader.cjcmarkets-global.com/registerMock"
+                        window.location.href = "https://trader.cjcmarketsglobal.com/registerMock"
                         return null
                     }}
                 />
