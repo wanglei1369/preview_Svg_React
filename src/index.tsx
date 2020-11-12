@@ -156,10 +156,18 @@ ReactDOM.render(
                     }}
                 />
                 <Route
-                    path="/platform-download/goto/android"
+                    path="/platform-download/goto/android_en"
                     component={() => {
                         window.location.href =
-                            "https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=zh&referrer=ref_id%3d6f2ebd06%26utm_source%3dwww.metatrader4.com%26utm_campaign%3ddownload"
+                            "https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=en&referrer=ref_id%3d6f2ebd06%26utm_source%3dwww.metatrader4.com%26utm_campaign%3ddownload"
+                        return null
+                    }}
+                />
+                <Route
+                    path="/platform-download/goto/android_ko"
+                    component={() => {
+                        window.location.href =
+                            "https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4&hl=ko&referrer=ref_id%3d6f2ebd06%26utm_source%3dwww.metatrader4.com%26utm_campaign%3ddownload"
                         return null
                     }}
                 />
