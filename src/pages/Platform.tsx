@@ -463,7 +463,7 @@ const iPad = (t: any, currentLang: string) => {
 }
 
 const android = (t: any, currentLang: string) => {
-    if (currentLang.includes("ar")){
+    if (currentLang.includes("ko")){
         return (
             <>
                 <h4 className="mb-30">
@@ -473,12 +473,12 @@ const android = (t: any, currentLang: string) => {
                 <div className="bg-gray p-5 mb-60">
                     <div className="col-lg-6 text-center mb-30">{VideoComponent(currentLang)}</div>
                     <div className="row justify-content-center mb-10">
-                        <div className="col-lg-4 text-right align-bottom mb-20">
-                            <Link to="/platform-download/goto/android" className="align-bottom">
-                                {DownloadBadgeAndroid("ar")}
+                        <div className="col-lg-4 text-left align-bottom mb-20">
+                            <Link to="/platform-download/goto/android_ko" className="align-bottom">
+                                {DownloadBadgeAndroid(currentLang)}
                             </Link>
                         </div>
-                        <div className="col-lg-3 text-right">
+                        <div className="col-lg-3 text-left">
                             <a href="/media/installer/metatrader4.apk">
                                 <img
                                     src={svgApk}
@@ -486,7 +486,7 @@ const android = (t: any, currentLang: string) => {
                                     className="img-fluid w-100"
                                     style={{color: "#007bff"}}
                                 />
-                                <p className="text-dark text-right">{t("platform.apkDownload")}</p>
+                                <p className="text-dark">{t("platform.apkDownload")}</p>
                             </a>
                         </div>
                         <div className="col-lg-3 text-center">
@@ -504,7 +504,7 @@ const android = (t: any, currentLang: string) => {
                                     .map((i: React.ReactNode, key: string | number | undefined) => {
                                         return (
                                             <div key={key}>
-                                                <p className="text-dark text-right">{i}</p>
+                                                <p className="text-dark text-left">{i}</p>
                                                 <br />
                                             </div>
                                         )
@@ -512,15 +512,15 @@ const android = (t: any, currentLang: string) => {
                             </>
                         </div>
 
-                        <div className="col-lg-12 text-right">
-                            <h5 className="text-highlight text-right">{t("platform.androidQuoteTitle")}</h5>
+                        <div className="col-lg-12 text-left">
+                            <h5 className="text-highlight">{t("platform.androidQuoteTitle")}</h5>
                             <>
                                 {t("platform.androidQuoteMessage")
                                     .split("\n")
                                     .map((i: React.ReactNode, key: string | number | undefined) => {
                                         return (
                                             <div key={key}>
-                                                <p className="text-dark text-right">{i}</p>
+                                                <p className="text-dark text-left">{i}</p>
                                                 <br />
                                             </div>
                                         )
@@ -542,7 +542,7 @@ const android = (t: any, currentLang: string) => {
                     <div className="col-lg-6 text-center mb-30">{VideoComponent(currentLang)}</div>
                     <div className="row justify-content-center mb-10">
                         <div className="col-lg-4 text-left align-bottom mb-20">
-                            <Link to="/platform-download/goto/android" className="align-bottom">
+                            <Link to="/platform-download/goto/android_en" className="align-bottom">
                                 {DownloadBadgeAndroid(currentLang)}
                             </Link>
                         </div>
